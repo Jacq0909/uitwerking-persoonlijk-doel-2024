@@ -60,7 +60,7 @@ overflow: hidden;
 }
 
 .smartphone{
-	background: url(img/smartphone.png) no-repeat 0 0;
+	background: url(img/Smartphone.png) no-repeat 0 0;
 	background-size: 100%;
 	width: 363px;
 	height: 344px;
@@ -68,7 +68,7 @@ overflow: hidden;
 }
 
 .webapp{
-	background: url(img/webapp.png) no-repeat 0 0;
+	background: url(img/Webapp.png) no-repeat 0 0;
 	background-size: 100%;
 width: 309px;
 height: 371px;
@@ -76,7 +76,7 @@ position: absolute; top: 300px; right: 425px;
 }
 
 .security{
-	background: url(img/security.png) no-repeat 0 0;
+	background: url(img/Security.png) no-repeat 0 0;
 	background-size: 100%;
 width: 297px;
 height: 286px;
@@ -128,7 +128,11 @@ nav .logo{
 	position: absolute; top: 50%; left: 0;
 	margin-top: -20px;
 	margin-left: 30px;
+<<<<<<< Updated upstream
 	background: url(/img/logo.png) no-repeat 0 0;
+=======
+	background: url(img/Logo.png) no-repeat 0 0;
+>>>>>>> Stashed changes
 	background-size: 100%;
 	overflow: hidden;
 	text-indent: -999px;
@@ -239,7 +243,7 @@ position: absolute;
 width: 54px;
 height: 50px;
 transform: rotate(-40deg);
-background: url(img/arrow.png) no-repeat 0 0;
+background: url(img/Arrow.png) no-repeat 0 0;
 background-size: 100%;
 bottom: -18px;
 left: 60%;
