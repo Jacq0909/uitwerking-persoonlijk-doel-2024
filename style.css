@@ -64,8 +64,7 @@ overflow: hidden;
 	background-size: 100%;
 	width: 363px;
 	height: 344px;
-	position: absolute; top: 10%; right: 10%;
-	transform: rotate(15deg);
+	position: absolute; top: 17%; right: 10%;
 }
 
 .webapp{
@@ -73,7 +72,7 @@ overflow: hidden;
 	background-size: 100%;
 width: 309px;
 height: 371px;
-position: absolute; top: 300px; right: 425px;
+position: absolute; top: 300px; right: 275px;
 }
 
 .security{
@@ -156,7 +155,7 @@ nav ul li a{
 	font-weight: bold;
 	color: #111111;
 	text-decoration: none;
-	padding: 35px 10px;
+	padding: 35px 20px;
 	line-height: 30px;
 }
 
@@ -249,6 +248,9 @@ left: 60%;
 .clock-img{
 	display: block;
 	margin: 0 auto;
+	animation-name: bounce;
+	animation-duration: 850ms;
+	animation-iteration-count: infinite;
 }
 
 footer{
@@ -362,7 +364,14 @@ left: 0;
 	padding: 15px 20px;
 }
 
-
+@keyframes bounce{
+	30%{
+		transform: translateY(-20%);
+	}
+	50% {
+		transform: scale(1.2) rotate(7deg);
+	}
+}
 /*
 
 <div class="popup">
