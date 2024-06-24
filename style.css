@@ -64,7 +64,7 @@ overflow: hidden;
 	background-size: 100%;
 	width: 363px;
 	height: 344px;
-	position: absolute; top: 17%; right: 10%;
+	position: absolute; top: 10%; right: 10%;
 }
 
 .webapp{
@@ -72,7 +72,7 @@ overflow: hidden;
 	background-size: 100%;
 width: 309px;
 height: 371px;
-position: absolute; top: 300px; right: 275px;
+position: absolute; top: 300px; right: 425px;
 }
 
 .security{
