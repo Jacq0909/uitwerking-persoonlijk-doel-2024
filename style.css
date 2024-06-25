@@ -27,7 +27,7 @@ font-size: 20px;
 
 p{
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 25px;
 	margin: 30px 0;
 }
 
@@ -70,17 +70,17 @@ overflow: hidden;
 .webapp{
 	background: url(img/Webapp.png) no-repeat 0 0;
 	background-size: 100%;
-width: 309px;
-height: 371px;
-position: absolute; top: 300px; right: 425px;
+	width: 309px;
+	height: 371px;
+	position: absolute; top: 300px; right: 425px;
 }
 
 .security{
 	background: url(img/Security.png) no-repeat 0 0;
 	background-size: 100%;
-width: 297px;
-height: 286px;
-position: absolute; bottom: 74px; right: 109px;
+	width: 297px;
+	height: 286px;
+	position: absolute; bottom: 80px; right: 120px;
 }
 
 a.cta,
